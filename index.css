@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.clock-box {
+  padding: 50px 0;
+  color: #fff;
+  height: 100vh;
+  background: url(http://www.planwallpaper.com/static/images/ZhGEqAP.jpg) no-repeat top left;
+  background-size: cover;
+  position: relative;
+}
+.clock-box-2 {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+#clock {
+  font-family: helvetica light;
+  letter-spacing: 8px;
+  text-align: left; 
+  line-height: 2.5rem; 
+}
+
+#time{
+  margin-bottom: 10px;
+  font-size: 4rem; 
+  font-weight: bold;
+  line-height: 4rem;
+}
+
+#date,#day{
+  font-size: 1rem; 
+}
+.o-btn-box{
+  text-align:right;
+}
+.o-btn{
+  color: #fff;
+  display: inline-block;
+  width: 20px;
+  text-align:center;
+}
